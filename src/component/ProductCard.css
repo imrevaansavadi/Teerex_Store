@@ -1,0 +1,33 @@
+.card {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items:flex-start; */
+    margin-bottom: 10px;
+  }
+  
+ .card-image{
+  max-height: 320px;
+  max-width: 100%;
+  align-self: center;
+ }
+
+ .image{
+  height: 100%;
+  width: 100%;
+  object-fit: "cover";
+ }
+ 
+.card-actions {
+  margin-bottom: 1rem;
+}
+
+.card-button {
+  text-transform: none;
+  font-weight: 600;
+  max-width: 100%;
+}
+.button {
+  background-color: #00a278 !important;
+}

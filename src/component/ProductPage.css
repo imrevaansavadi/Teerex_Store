@@ -1,0 +1,34 @@
+.productPage {
+    display: flex;
+    justify-content: space-between;
+  }
+  .grid{
+    margin: 30px;
+  }
+  .searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .margin {
+    margin-left: 10px;
+  }
+  .search-mobile {
+    display: block !important;
+  }
+  
+  .search-desktop {
+    display: none !important;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .search-mobile {
+      display: none !important;
+    }
+    .search-desktop {
+      display: block !important;
+    }
+  }
+  

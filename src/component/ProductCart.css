@@ -1,0 +1,61 @@
+.cardBox{
+  height: 100%;
+  max-width: 360px;
+  margin: 20px;
+}
+
+.cartCard{
+    height: 100%;
+    max-width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px
+}
+.imageParent{
+   height: 100%;
+   max-width: 180px;  
+}
+.cardImg{
+  height: 100%;
+  width: 100%;
+  object-fit: "cover";
+}
+
+.section{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section2{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.section3{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.section4{
+  display: flex;
+  align-items: center;
+}
+.textAlign{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .cartCard{
+     width: auto;
+  }
+  .cardBox{
+     width: auto;
+  }
+}
